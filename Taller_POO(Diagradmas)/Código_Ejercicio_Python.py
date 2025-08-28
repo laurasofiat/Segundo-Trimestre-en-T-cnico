@@ -1,10 +1,10 @@
 class Persona:
-    def __init__(self,edad,nombre,apellido):
+    def __init__(self,edad,nombre,apellido): #__init__ contructor
         self.edad=edad
         self.nombre=nombre
         self.apellido=apellido
     def info(self):
-        return f"{self.edad},{self.nombre},{self.apellido}"
+        return f"{self.edad},{self.nombre},{self.apellido}" #return para mostrar la información de la clase anterior
 
 class Empleado(Persona):
     def __init__(self,edad,nombre,apellido,horario,cargo,salario):
