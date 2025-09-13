@@ -1,4 +1,4 @@
-
+/*El código no ejecuta, solo es prueba de mi intento al realizar el código en lenguaje Java */
 class Persona {
     protected String edad;  /*protegido:Acceso dentro de la clase y sus subclases*/
     protected String nombre; 
